@@ -1,0 +1,14 @@
+html,
+body {
+  background-color: white;
+}
+
+.Root {
+  margin: 0px;
+  background-color: white;
+}
+
+.MainContentArea {
+  margin: 20px;
+  margin-top: 50px;
+}

@@ -1,0 +1,20 @@
+- slug: javascript-cookbook-2e
+  title: Javascript Cookbook, 2nd Edition
+  author: Shelley Powers
+  cover_url: https://learning.oreilly.com/covers/urn:orm:book:9781449390211/400w/
+  recipes:
+    - slug: calculating-the-length-of-a-circular-arc
+      title: Calculating the length of a circular arc
+      extensions: ["js", "py"]
+    - slug: converting-a-decimal-to-a-hexadecimal-value
+      title: Converting a decimal to a hexadecimal value
+      extensions: ["js", "py"]
+    - slug: summing-all-numbers-in-a-table-column
+      title: Summing all numbers in a table column
+      extensions: ["js", "py"]
+    - slug: swapping-words-in-a-string-using-capturing-parentheses
+      title: Swapping words in a string using capturing parentheses
+      extensions: ["js", "py"]
+    - slug: replacing-patterns-with-new-strings
+      title: Replacing patterns with new strings
+      extensions: ["js", "py"]
