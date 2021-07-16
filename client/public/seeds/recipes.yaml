@@ -4,17 +4,17 @@
   cover_url: https://learning.oreilly.com/covers/urn:orm:book:9781449390211/400w/
   recipes:
     - slug: calculating-the-length-of-a-circular-arc
-      title: Calculating the length of a circular arc
+      title: Calculating the Length of a Circular Arc
       extensions: ["js", "py", "go", "java"]
     - slug: converting-a-decimal-to-a-hexadecimal-value
-      title: Converting a decimal to a hexadecimal value
+      title: Converting a Decimal to a Hexadecimal Value
       extensions: ["js", "py", "go", "java"]
     - slug: summing-all-numbers-in-a-table-column
-      title: Summing all numbers in a table column
+      title: Summing All Numbers in a Table Column
       extensions: ["js", "py", "go", "java"]
     - slug: swapping-words-in-a-string-using-capturing-parentheses
-      title: Swapping words in a string using capturing parentheses
+      title: Swapping Words in a String Using Capturing Parentheses
       extensions: ["js", "py", "go", "java"]
     - slug: replacing-patterns-with-new-strings
-      title: Replacing patterns with new strings
+      title: Replacing Patterns with New Strings
       extensions: ["js", "py", "go", "java"]

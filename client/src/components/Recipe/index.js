@@ -43,6 +43,9 @@ const Main = (props) => {
       </Helmet>
       <div id="book-content">
         <div id="sbo-rt-content">
+          <h1>
+            <b>{props.recipe.title}</b>
+          </h1>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </div>

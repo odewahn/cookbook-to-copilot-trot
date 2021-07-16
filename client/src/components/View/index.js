@@ -46,9 +46,6 @@ const Main = (props) => {
 
   return (
     <Shell>
-      <h1>{recipe.title}</h1>
-
-      <hr />
       <div>
         <div className="viewRecipe">
           <Recipe work={work} recipe={recipe} />
