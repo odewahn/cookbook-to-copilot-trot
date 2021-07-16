@@ -26,7 +26,7 @@ const Main = (props) => {
   if (!work) {
     return (
       <Shell>
-        <h1>Work Not Found!</h1>
+        <h1>Loading...</h1>
       </Shell>
     );
   }
@@ -39,7 +39,7 @@ const Main = (props) => {
   if (!recipe) {
     return (
       <Shell>
-        <h1>Recipe Not Found!</h1>
+        <h1>Loading...</h1>
       </Shell>
     );
   }
