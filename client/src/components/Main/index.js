@@ -21,15 +21,6 @@ const Main = () => {
   return (
     <Shell>
       <div className="Root">
-        <Button
-          variant="contained"
-          onClick={() => {
-            dispatch(fetchSeeds());
-          }}
-        >
-          Click me!
-        </Button>
-        <hr />
         <ul>
           {store.Seeds.data.map((work) => {
             return (
@@ -38,7 +29,7 @@ const Main = () => {
                   return (
                     <li>
                       <Link href={"/view/" + work.slug + "/" + recipe.slug}>
-                        {recipe.title}
+                        {recipe.title} ({work.title} by {work.author})
                       </Link>
                     </li>
                   );
