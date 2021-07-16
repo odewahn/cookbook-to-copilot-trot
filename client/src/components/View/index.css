@@ -1,0 +1,21 @@
+.viewRecipe {
+  position: relative;
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 1rem;
+  border-right: 1px solid #eee;
+}
+
+.viewTrot {
+  position: relative;
+  display: inline-block;
+  width: 48%;
+  height: 100vh;
+  vertical-align: top;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  margin-left: 12px;
+}

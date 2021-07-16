@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import Shell from "../Shell";
+import Recipe from "../Recipe";
+import Trot from "../Trot";
+
+import "./index.css";
 
 import { fetchSeeds } from "../../app/state/seeds";
 
@@ -42,10 +46,23 @@ const Main = (props) => {
 
   return (
     <Shell>
-      <h1>{work.title}</h1>
-      <h4>{work.author}</h4>
-      <hr />
       <h1>{recipe.title}</h1>
+
+      <hr />
+      <div>
+        <div className="viewRecipe">
+          <Recipe work={work} recipe={recipe} />
+        </div>
+        <div className="viewTrot">
+          <Trot work={work} recipe={recipe} />
+        </div>
+      </div>
+      <hr />
+      <div>
+        <h4>
+          Excerpted from {work.title} by {work.author}
+        </h4>
+      </div>
     </Shell>
   );
 };
