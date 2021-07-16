@@ -5,16 +5,16 @@
   recipes:
     - slug: calculating-the-length-of-a-circular-arc
       title: Calculating the length of a circular arc
-      extensions: ["js", "py"]
+      extensions: ["js", "py", "go", "java"]
     - slug: converting-a-decimal-to-a-hexadecimal-value
       title: Converting a decimal to a hexadecimal value
-      extensions: ["js", "py"]
+      extensions: ["js", "py", "go", "java"]
     - slug: summing-all-numbers-in-a-table-column
       title: Summing all numbers in a table column
-      extensions: ["js", "py"]
+      extensions: ["js", "py", "go", "java"]
     - slug: swapping-words-in-a-string-using-capturing-parentheses
       title: Swapping words in a string using capturing parentheses
-      extensions: ["js", "py"]
+      extensions: ["js", "py", "go", "java"]
     - slug: replacing-patterns-with-new-strings
       title: Replacing patterns with new strings
-      extensions: ["js", "py"]
+      extensions: ["js", "py", "go", "java"]
