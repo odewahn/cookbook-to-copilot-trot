@@ -44,6 +44,7 @@ const Main = (props) => {
       >
         {props.recipe.extensions.map((ext) => {
           const label = extensionLabels[ext] || ext;
+          // Return the languages; bold the language that is selected
           return (
             <Button key={ext} onClick={() => setExtension(ext)}>
               {ext == extension ? <b>{label}</b> : label}

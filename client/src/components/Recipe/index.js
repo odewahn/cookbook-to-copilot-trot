@@ -42,10 +42,12 @@ const Main = (props) => {
         />
       </Helmet>
       <div id="book-content">
+        <h1>
+          <b>{props.recipe.title}</b>
+        </h1>
+        {props.work.title} by {props.work.author}
+        <hr />
         <div id="sbo-rt-content">
-          <h1>
-            <b>{props.recipe.title}</b>
-          </h1>
           <div dangerouslySetInnerHTML={{ __html: html }} />
         </div>
       </div>

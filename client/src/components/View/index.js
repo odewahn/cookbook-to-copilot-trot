@@ -54,12 +54,6 @@ const Main = (props) => {
           <Trot work={work} recipe={recipe} />
         </div>
       </div>
-      <hr />
-      <div>
-        <h4>
-          Excerpted from {work.title} by {work.author}
-        </h4>
-      </div>
     </Shell>
   );
 };
